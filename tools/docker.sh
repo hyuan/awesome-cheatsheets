@@ -6,6 +6,7 @@
 docker build -t friendlyname .              # Create image using this directory's Dockerfile
 docker run -p 4000:80 friendlyname          # Run "friendlyname" mapping port 4000 to 80
 docker run -d -p 4000:80 friendlyname       # Same thing, but in detached mode
+docker run -d -e "VAR_X=X" friendlyname     # "friendlyname" with environment VAR_X=X
 docker exec -it [container-id] bash         # Enter a running container
 docker ps                                   # See a list of all running containers
 docker stop <hash>                          # Gracefully stop the specified container
@@ -24,6 +25,7 @@ docker system prune                         # Remove all unused containers, netw
 docker system prune -a                      # Remove all unused containers, networks, images not just dangling ones (Docker 17.06.1-ce and superior)
 docker volume prune                         # Remove all unused local volumes
 docker network prune                        # Remove all unused networks
+docker container prune                      # Remove all stopped containers
 
 
 ##############################################################################
@@ -42,6 +44,7 @@ docker-compose config                           # Validate and view the Compose 
 docker-compose scale <service_name>=<replica>   # Scale special service(s)
 docker-compose top                              # Display the running processes
 docker-compose run -rm -p 2022:22 web bash      # Start web service and runs bash as its command, remove old container.
+
 
 ##############################################################################
 # DOCKER SERVICES 
