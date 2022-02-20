@@ -27,7 +27,10 @@ Feel free to take a look. You might learn new things. They have been designed to
 
 - [C](languages/C.txt)
 - [C#](languages/C%23.txt)
+- [Go](languages/golang.md)
+- [Java](languages/java.md)
 - [PHP](languages/php.php)
+- [Python](languages/python.md)
 
 #### Functional
 
@@ -51,6 +54,7 @@ Feel free to take a look. You might learn new things. They have been designed to
 #### Javascript
 
 - [Adonis.js](backend/adonis.js)
+- [Express.js](backend/express.js)
 - [Feathers.js](backend/feathers.js)
 - [Moleculer](backend/moleculer.js)
 - [Node.js](backend/node.js)
@@ -98,6 +102,7 @@ Feel free to take a look. You might learn new things. They have been designed to
 #### Development
 
 - [cURL](tools/curl.sh)
+- [Drush](tools/drush.sh)
 - [Elasticsearch](tools/elasticsearch.js)
 - [Emmet](tools/emmet.md)
 - [Git](tools/git.sh)
@@ -109,6 +114,8 @@ Feel free to take a look. You might learn new things. They have been designed to
 
 #### Infrastructure
 
+- [AWS CLI](tools/aws.sh)
+- [Docker](tools/docker.sh)
 - [Docker CLI](tools/docker.sh)
 - [Docker Compose](tools/docker-compose.md)
 - [Heroku CLI](tools/heroku.sh)
@@ -116,9 +123,16 @@ Feel free to take a look. You might learn new things. They have been designed to
 - [Nanobox Boxfile](tools/nanobox_boxfile.yml)
 - [Nanobox CLI](tools/nanobox_cli.sh)
 - [Nginx](tools/nginx.sh)
+- [PM2](tools/pm2.sh)
 - [Ubuntu](tools/ubuntu.sh)
   </details>
 
 ## 🙌🏼 How to Contribute?
 
 You are more than welcome to contribute and build your own cheat sheet for your favorite programming language, framework or development tool. Just submit changes via pull request and I will review them before merging.
+
+## 👩‍💻👨‍💻 Our valuable Contributors
+
+<p align="center"><a href="https://github.com/LeCoupa/awesome-cheatsheets/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=LeCoupa/awesome-cheatsheets" />
+</a></p>
