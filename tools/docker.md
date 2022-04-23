@@ -11,3 +11,10 @@ docker build --target runtime-image \
 ```
 
 Reference: https://pythonspeed.com/articles/faster-multi-stage-builds/
+
+## Override ENTRYPOINT with docker run
+```
+sudo docker run -it --entrypoint /bin/bash [docker_image]
+```
+
+Reference: https://phoenixnap.com/kb/docker-run-override-entrypoint
