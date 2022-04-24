@@ -18,3 +18,9 @@ sudo docker run -it --entrypoint /bin/bash [docker_image]
 ```
 
 Reference: https://phoenixnap.com/kb/docker-run-override-entrypoint
+
+## Run docker without sudo
+```
+sudo usermod -aG docker anthony
+```
+Re-login
